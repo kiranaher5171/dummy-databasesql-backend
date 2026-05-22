@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactus",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contactus",
+    "displayName": "ContactUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "hear_about_us": {
+      "type": "enumeration",
+      "enum": [
+        "google",
+        "facebook",
+        "twitter",
+        "instagram",
+        "linkedin"
+      ]
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

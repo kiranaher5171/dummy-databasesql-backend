@@ -4,6 +4,7 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
+    "db:create": "node scripts/ensure-mysql-database.cjs",
     "build": "strapi build",
     "console": "strapi console",
     "deploy": "strapi deploy",
@@ -19,6 +20,8 @@
     "@strapi/plugin-users-permissions": "5.46.0",
     "@strapi/strapi": "5.46.0",
     "better-sqlite3": "12.8.0",
+    "mysql2": "^3.22.3",
+    "pg": "^8.21.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",

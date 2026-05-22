@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reusable_header_and_lists",
+  "info": {
+    "displayName": "header_and_list"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "rich_text": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}
